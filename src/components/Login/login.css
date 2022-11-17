@@ -1,0 +1,96 @@
+body {
+  background-color: #FF668A;
+  font-family: 'Nunito';
+}
+
+.login-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login-section h1 {
+  font-size: 4rem;
+  color: #ffb4c5;
+}
+
+.login-section .login-page {
+  text-align: center;
+  color: white;
+  -webkit-box-shadow: 0 0 6px 1px #F5E1E1;
+          box-shadow: 0 0 6px 1px #F5E1E1;
+  padding: 1rem 0;
+  border-radius: 0.5rem;
+  background-color: rgba(250, 200, 212, 0.6);
+}
+
+.login-section .login-page form {
+  margin-top: 4rem;
+  padding: 0 2rem;
+}
+
+.login-section .login-page form input {
+  display: block;
+}
+
+.login-section .login-page form input {
+  padding: 15px 10px;
+  border: none;
+  border-radius: 0.5rem;
+  margin: 20px auto;
+  width: 300px;
+  outline: none;
+  color: #FF668A;
+}
+
+.login-section .login-page form input::-webkit-input-placeholder {
+  color: #ffb4c5;
+  font-family: 'Nunito';
+}
+
+.login-section .login-page form input:-ms-input-placeholder {
+  color: #ffb4c5;
+  font-family: 'Nunito';
+}
+
+.login-section .login-page form input::-ms-input-placeholder {
+  color: #ffb4c5;
+  font-family: 'Nunito';
+}
+
+.login-section .login-page form input::placeholder {
+  color: #ffb4c5;
+  font-family: 'Nunito';
+}
+
+.login-section .login-page form input[type=submit] {
+  cursor: pointer;
+  background-color: #FF668A;
+  color: white;
+}
+
+.login-section .login-page form input[type=submit]:hover {
+  background-color: #ffb4c5;
+}
+
+.login-section .login-page p {
+  margin: 5px;
+}
+
+.login-section .login-page a {
+  font-size: 12px;
+  color: #FF668A;
+  font-weight: bold;
+}
+
+.link{
+  cursor: pointer;
+}
+/*# sourceMappingURL=login.css.map */

@@ -1,0 +1,138 @@
+
+  body {
+    background-color: #F5E1E1;
+    color: #fc86a1;
+    font-family: 'Nunito';
+  }
+  
+  p {
+    color: #ffb4c5;
+  }
+  
+  body, .header, .nav {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 5px 10px;
+    background-color: #FF668A;
+    color: white;
+  }
+  
+  .header .nav ul {
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .header .nav ul li {
+    padding: 1rem;
+  }
+  
+  .header .nav ul li a {
+    -webkit-text-decoration-line: none;
+            text-decoration-line: none;
+    cursor: pointer;
+  }
+  
+  .meme-section .memes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 10px;
+  }
+  
+  .meme-section .memes .meme {
+    width: 40%;
+    margin: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.3);
+    -webkit-box-shadow: 0 0 10px 2px rgba(255, 102, 138, 0.2);
+            box-shadow: 0 0 10px 2px rgba(255, 102, 138, 0.2);
+    border-radius: 0.5rem;
+  }
+  
+  .meme-section .memes .meme .heading {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .meme-section .memes .meme .heading img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 1rem;
+  }
+  
+  .meme-section .memes .meme .heading h4, .meme-section .memes .meme .heading p {
+    margin: 5px;
+  }
+  
+  .meme-section .memes .meme .heading p {
+    font-size: 0.8rem;
+  }
+  
+  .meme-section .memes .meme .meme-image {
+    max-height: 400px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  
+  .meme-section .memes .meme .interactions {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  
+  .meme-section .memes .meme .interactions .interaction {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 10px;
+  }
+  
+  .meme-section .memes .meme .interactions .interaction img {
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+  }
+  
+  .meme-section .memes .meme .interactions .interaction p {
+    font-size: 12px;
+  }
+  /*# sourceMappingURL=home.css.map */
